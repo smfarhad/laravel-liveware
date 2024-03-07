@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Livewire\Counter;
+use App\Livewire\Todos;
+use App\Livewire\BasicTable;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',Counter::class);
+Route::get('/counter',Counter::class);
+Route::get('/todos',Todos::class);
+Route::get('/basic-table',BasicTable::class);
