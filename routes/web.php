@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
 use App\Livewire\Todos;
 use App\Livewire\BasicTable;
+use App\Livewire\CreatePost;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,4 @@ Route::get('/',Counter::class);
 Route::get('/counter',Counter::class);
 Route::get('/todos',Todos::class);
 Route::get('/basic-table',BasicTable::class);
+Route::get('/craete-post',CreatePost::class);

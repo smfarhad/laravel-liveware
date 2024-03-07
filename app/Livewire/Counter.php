@@ -5,7 +5,7 @@ namespace App\Livewire;
 use Livewire\Attributes\Title;
 use Livewire\Component;
 use App\Models\Post;
-#[Title('Todos')]
+#[Title('Counter')]
 class Counter extends Component
 {
     public $counter=1;

@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Attributes\Title;
 use Livewire\Component;
-#[Title('Todos')]
+#[Title('TodosPage')]
 class Todos extends Component
 {
     public $todo="Washt Has";
